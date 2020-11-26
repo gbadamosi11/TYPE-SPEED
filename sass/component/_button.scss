@@ -1,0 +1,181 @@
+.icon{
+    padding: 1.5rem;
+    background-color: $color-white;
+    text-align: center;
+    font-size: 3.2rem;
+    color: $color-primary;
+    font-weight: 100;
+    margin: 10rem auto 0 auto;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    transition: all .2s;
+    
+    &:hover{
+        transform: translateY(-2px);
+        cursor: pointer;
+    }
+}
+
+.btn {
+    &,
+    &:link,
+    &:visited {
+        text-decoration: none;
+        padding: 1.5rem 6rem;
+        border-radius: .5rem;
+        transition: all .2s;
+        font-size: 1.6rem;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    @include respond(tab-land) {
+        margin: -5rem 0;
+    }
+
+    @include respond(tab-port) {
+        margin: -10rem 0;
+    }
+
+    @include respond(phone) {
+        margin: -30rem 0;
+    }
+
+    &-full {
+        position: absolute;
+        top: 50%;
+        left: 45.5%;
+        text-align: center;
+        background-color: $color-white;
+        color: $color-grey;
+        z-index: 1000;
+
+        &:hover {
+            transform: translateY(-.3rem);
+            box-shadow: 0 1rem 2rem rgba($color-black, 0.205);
+    
+            &::after {
+                transform: scaleX(1.4) scaleY(1.6);
+                opacity: 0;
+            }
+    
+        }
+
+        &-u {
+            width: 5rem;
+            height: 1.72rem;
+            position: absolute;
+            top: 51%;
+            left: 45.9%;
+            background-color: $color-purple;
+            z-index: 0;
+
+            &:hover {
+                transform: translateY(0);
+        
+            } 
+        } 
+
+        
+    }
+
+
+    &-black{
+        position: absolute;
+        top: 80%;
+        right:80%;
+        text-align: center;
+        background-color: $color-purple;
+        color: $color-white;
+        z-index: 1000;
+
+        &:hover {
+            transform: translateY(-.3rem);
+            box-shadow: 0 1rem 2rem rgba($color-black, 0.205);
+
+            &::after {
+                transform: scaleX(1.4) scaleY(1.6);
+                opacity: 0;
+            }
+
+        }
+
+        &-u {
+            width: 8rem;
+            height: 1.5rem;
+            position: absolute;
+            top: 81%;
+            right: 79.8%;
+            background-color: $color-white;
+            z-index: 0;
+
+            &:hover {
+                transform: translateY(0);
+            }
+        }
+
+        @include respond(tab-land) {
+            margin: -15rem 0;
+        }
+    
+        @include respond(tab-port) {
+            margin: -20rem 0;
+        }
+    
+        @include respond(phone) {
+            margin: -60rem 0;
+        }
+    
+    }
+
+    &-black-2{
+        position: absolute;
+        top: 80%;
+        left:80%;
+        text-align: center;
+        background-color: $color-purple;
+        color: $color-white;
+        z-index: 1000;
+
+
+        &:hover {
+            transform: translateY(-.3rem);
+            box-shadow: 0 1rem 2rem rgba($color-black, 0.205);
+    
+            &::after {
+                transform: scaleX(1.4) scaleY(1.6);
+                opacity: 0;
+            }
+        }
+
+        
+        &-u {
+            width: 8rem;
+            height: 1.5rem;
+            position: absolute;
+            top: 81%;
+            left: 80.3%;
+            background-color: $color-white;
+            z-index: 0;
+
+            &:hover {
+                transform: translateY(0);
+            }
+        }
+
+        @include respond(tab-land) {
+            margin: -15rem 0;
+        }
+    
+        @include respond(tab-port) {
+            margin: -20rem 0;
+        }
+    
+        @include respond(phone) {
+            margin: -60rem 0;
+        }
+    
+    }
+
+}

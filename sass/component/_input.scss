@@ -1,0 +1,33 @@
+.input{
+    
+    input{
+        width: 69.2rem;
+        // padding: 2rem ;
+        height: 5.2rem;
+        border-radius: 1.2rem;
+        border: none;
+
+        &::placeholder{
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 100;
+            color: $color-grey-light;
+
+            // @include respond(tab-port) {
+            //     width: 69.2rem;
+            //     // padding: 2rem ;
+            //     height: 5.2rem;
+            //     border-radius: 1.2rem;
+            //     border: none;
+            // }
+        
+            // @include respond(phone) {
+            //     width: 69.2rem;
+            //     // padding: 2rem ;
+            //     height: 5.2rem;
+            //     border-radius: 1.2rem;
+            //     border: none;
+            // }
+        }
+    }
+}
