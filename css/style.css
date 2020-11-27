@@ -58,7 +58,7 @@ body {
   @media (max-width: 37.5em) {
     .heading-secondary {
       height: 60vh;
-      margin: 30.3rem  0; } }
+      margin: 20.3rem  0; } }
 
 .icon {
   padding: 1.5rem;
@@ -130,6 +130,10 @@ body {
   background-color: #3A3659;
   color: #fff;
   z-index: 1000; }
+  @media (max-width: 37.5em) {
+    .btn-black {
+      top: 85%;
+      right: 75%; } }
   .btn-black:hover {
     transform: translateY(-0.3rem);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.205); }
@@ -144,6 +148,10 @@ body {
     right: 79.8%;
     background-color: #fff;
     z-index: 0; }
+    @media (max-width: 37.5em) {
+      .btn-black-u {
+        top: 85.8%;
+        right: 74.8%; } }
     .btn-black-u:hover {
       transform: translateY(0); }
   @media (max-width: 75em) {
@@ -154,7 +162,7 @@ body {
       margin: -20rem 0; } }
   @media (max-width: 37.5em) {
     .btn-black {
-      margin: -60rem 0; } }
+      margin: -50rem 0; } }
 
 .btn-black-2 {
   position: absolute;
@@ -164,6 +172,10 @@ body {
   background-color: #3A3659;
   color: #fff;
   z-index: 1000; }
+  @media (max-width: 37.5em) {
+    .btn-black-2 {
+      top: 85%;
+      left: 75%; } }
   .btn-black-2:hover {
     transform: translateY(-0.3rem);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.205); }
@@ -178,6 +190,10 @@ body {
     left: 80.3%;
     background-color: #fff;
     z-index: 0; }
+    @media (max-width: 37.5em) {
+      .btn-black-2-u {
+        top: 85.8%;
+        left: 75%; } }
     .btn-black-2-u:hover {
       transform: translateY(0); }
   @media (max-width: 75em) {
@@ -188,7 +204,7 @@ body {
       margin: -20rem 0; } }
   @media (max-width: 37.5em) {
     .btn-black-2 {
-      margin: -60rem 0; } }
+      margin: -50rem 0; } }
 
 .input input {
   width: 69.2rem;
