@@ -51,6 +51,11 @@
         color: $color-grey;
         z-index: 1000;
 
+        @include respond(phone) {
+            top: 55%; 
+            left: 45%;
+        }
+
         &:hover {
             transform: translateY(-.3rem);
             box-shadow: 0 1rem 2rem rgba($color-black, 0.205);
@@ -70,6 +75,12 @@
             left: 45.9%;
             background-color: $color-purple;
             z-index: 0;
+
+            
+            @include respond(phone) {
+                top: 56%; 
+                left: 45%;
+            }
 
             &:hover {
                 transform: translateY(0);

@@ -105,6 +105,10 @@ body {
   background-color: #fff;
   color: #333;
   z-index: 1000; }
+  @media (max-width: 37.5em) {
+    .btn-full {
+      top: 55%;
+      left: 45%; } }
   .btn-full:hover {
     transform: translateY(-0.3rem);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.205); }
@@ -119,6 +123,10 @@ body {
     left: 45.9%;
     background-color: #3A3659;
     z-index: 0; }
+    @media (max-width: 37.5em) {
+      .btn-full-u {
+        top: 56%;
+        left: 45%; } }
     .btn-full-u:hover {
       transform: translateY(0); }
 
